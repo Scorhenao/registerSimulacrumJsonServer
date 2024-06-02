@@ -1,5 +1,5 @@
 
-amos a hacer que el sistema de registro de usuarios admita diferentes tipos de usuarios
+vamos a hacer que el sistema de registro de usuarios admita diferentes tipos de usuarios
 (por ejemplo, "administrador" y "usuario regular").
 
 Ahora, aquí tienes instrucciones para completar cada parte:
