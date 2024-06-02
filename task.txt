@@ -1,0 +1,29 @@
+
+amos a hacer que el sistema de registro de usuarios admita diferentes tipos de usuarios (por ejemplo, "administrador" y "usuario regular").
+ Aquí tienes la versión incompleta:
+
+Ahora, aquí tienes instrucciones para completar cada parte:
+
+Enviar datos de usuario al servidor: Utiliza la función fetch() para enviar los datos del usuario (incluyendo el tipo de usuario) al servidor para
+ su registro. Necesitarás hacer una solicitud POST al endpoint correspondiente en JSON Server. Asegúrate de enviar los datos en formato JSON en
+ el cuerpo de la solicitud.
+
+Manejar la respuesta del servidor: Después de enviar los datos al servidor, maneja la respuesta del servidor como sea necesario. Por ejemplo,
+ si el usuario se registra exitosamente, puedes mostrar un mensaje de confirmación.
+Si hay algún error, puedes mostrar un mensaje de error al usuario.
+
+Ajustar la estructura de la base de datos (si es necesario): Si necesitas almacenar el tipo de usuario en la base de datos,
+ asegúrate de ajustar la estructura de tu archivo db.json para incluir este campo. Por ejemplo:
+
+{
+  "users": []
+}
+
+Cada objeto de usuario podría tener una estructura similar a esta:
+
+{
+  "id": 1,
+  "username": "exampleUser",
+  "password": "hashedPassword",
+  "userType": "admin"
+}
