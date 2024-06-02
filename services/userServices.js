@@ -12,6 +12,9 @@ form.addEventListener("submit", (event) => {
     const password = passwordInput.value;
     const userType = userTypeInput.value;
 
+    if ( userName === "" || password === "" || userType === "") {
+        alert("No debes dejar campos vacios")
+    }
     post(URL_USER, {
         "userName": userName,
         "password": password,
@@ -25,5 +28,5 @@ fetch(URL_USER, {
         'Content-Type': 'application/json'
     },
     body: JSON.stringify(data)
-}).catch(error => console.log(error));
+}).catch(error => console.log(error), alet("error"));
 
