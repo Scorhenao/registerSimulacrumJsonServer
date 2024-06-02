@@ -7,7 +7,7 @@ Ahora, aquí tienes instrucciones para completar cada parte:
 Enviar datos de usuario al servidor: Utiliza la función fetch() para enviar los datos del usuario
 (incluyendo el tipo de usuario) al servidor para su registro. Necesitarás hacer una solicitud
 POST al endpoint correspondiente en JSON Server. Asegúrate de enviar los datos en formato JSON en
- el cuerpo de la solicitud.
+el cuerpo de la solicitud.
 
 Manejar la respuesta del servidor: Después de enviar los datos al servidor, maneja
 la respuesta del servidor como sea necesario. Por ejemplo, si el usuario se registra exitosamente,
